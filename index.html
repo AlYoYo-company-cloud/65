@@ -2,53 +2,77 @@
 <html lang="ar" dir="rtl">
 <head>
   <meta charset="UTF-8">
-  <title>التطوع | شباب بلا حدود</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>شباب بلا حدود | شباب بيتغير… وطن يتقدم</title>
+
+  <!-- خط عربي احترافي -->
   <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;800&display=swap" rel="stylesheet">
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Cairo', sans-serif;
-      background: #F9FAFB;
-    }
 
-    .container {
-      max-width: 600px;
-      margin: 80px auto;
-      background: white;
-      padding: 40px;
-      border-radius: 20px;
-      box-shadow: 0 15px 40px rgba(0,0,0,0.15);
-    }
-
-    h1 {
-      color: #1C3F60;
-      text-align: center;
-      margin-bottom: 10px;
-    }
-
-    p {
-      text-align: center;
-      color: #555;
-      margin-bottom: 30px;
-    }
-
-    iframe {
-      width: 100%;
-      height: 600px;
-      border: none;
-      border-radius: 12px;
-    }
-  </style>
+  <!-- ملف التنسيق -->
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-<div class="container">
-  <h1>انضم لفريق شباب بلا حدود</h1>
-  <p>لو مؤمن إن التغيير يبدأ مننا… مكانك معانا</p>
+<header class="navbar">
+  <div class="logo">شباب بلا حدود</div>
+  <nav class="nav-links">
+    <a href="#about">عن المبادرة</a>
+    <a href="#activities">أنشطتنا</a>
+    <a href="#values">شعارنا</a>
+    <a href="volunteer.html" class="btn-nav">تطوع معنا</a>
+  </nav>
+</header>
 
-  <!-- ضع رابط Google Form هنا -->
-  <iframe src="PUT_YOUR_GOOGLE_FORM_LINK_HERE"></iframe>
-</div>
+<section class="hero">
+  <div class="hero-content">
+    <h1>شباب بيتغير… وطن يتقدم</h1>
+    <p>مبادرة تطوعية مجتمعية تنزل الشارع وتترك أثرًا حقيقيًا</p>
+    <a href="volunteer.html" class="btn-main">انضم كمُتطوع</a>
+  </div>
+</section>
 
+<section id="about" class="section">
+  <h2>من نحن</h2>
+  <p>
+    شباب بلا حدود مبادرة تطوعية مجتمعية تهدف إلى تنمية الوعي،
+    خدمة الناس، وصناعة جيل قادر على التغيير الحقيقي.
+  </p>
+</section>
+
+<section id="activities" class="section section-alt">
+  <h2>أنشطتنا</h2>
+  <div class="cards">
+    <div class="card">قوافل طبية</div>
+    <div class="card">حملات توعية</div>
+    <div class="card">دورات تدريبية</div>
+    <div class="card">تشجير وتجميل</div>
+    <div class="card">حملات تنظيف</div>
+    <div class="card">بودكاست مجتمعي</div>
+  </div>
+</section>
+
+<section id="values" class="section">
+  <h2>شعارنا</h2>
+  <div class="values">
+    <div class="value-box">
+      <h3>أثر</h3>
+      <p>بصمة لا تُنسى</p>
+    </div>
+    <div class="value-box">
+      <h3>نهضة</h3>
+      <p>مجتمع يستحق التقدم</p>
+    </div>
+    <div class="value-box">
+      <h3>تنمية</h3>
+      <p>وعي وسلوك وبيئة</p>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <p>© 2025 شباب بلا حدود – جميع الحقوق محفوظة</p>
+</footer>
+
+<script src="js/main.js"></script>
 </body>
-</html>
+               </html>
